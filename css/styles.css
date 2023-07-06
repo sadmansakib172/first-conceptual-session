@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-container{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    background-color: rgb(49, 48, 48);
+    color:white;
+    align-items:center;
+    padding:20px;
+    font-size: 28px;
+    font-weight:700;
+}
+.navbar-items{
+    display: flex;
+    font-size: 18px;
+    font-weight:400;
+    
+    
+}
+.home{
+    margin-left:15px;
+}

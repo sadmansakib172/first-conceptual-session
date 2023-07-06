@@ -23,3 +23,106 @@
 .home{
     margin-left:15px;
 }
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:700px;
+    background-color: rgb(28, 26, 26);
+    color:white;
+    background-image:url(../images/background.png);
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.banner-description{
+    font-size: 18px;
+    margin: 15px 0px;
+
+}
+.btn{
+    padding:15px 25px;
+    border-style: none;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+}
+.banner-photo{
+    width:300px;
+} 
+
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    padding-top:20px;
+}
+.about-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.about-description{
+    font-size: 18px;
+    padding:15px 0px;
+}
+.about-photo{
+    width: 300px;
+}
+.bg{
+    background-color: rgb(28, 26, 26);
+    background-image:url(../images/background.png);
+    height: 500px;
+}
+
+.service-heading{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.box{
+    height: 250px;
+    width:220px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    padding:10px 10px;
+    text-align: center;
+    color:white;
+    border-radius: 8px;
+    padding-bottom: 70px;;
+}
+.box-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.box-description{
+    font-size: 16px;
+    padding:15px 0px;
+}
+.box-image{
+    width: 70px;
+}
+.btn-2{
+    padding:10px;
+    border-style: none;
+    background-color: rgb(65, 62, 62);
+    color: white;
+    border-radius: 5px;  
+}
